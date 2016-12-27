@@ -48,8 +48,7 @@ public class NewsFragment extends Fragment {
     tv.setText(agrs1);
 
     mBanner= (Banner) view.findViewById(R.id.banner);
-    initDate();
-    initBanner();
+
     return view;
   }
 
@@ -57,7 +56,8 @@ public class NewsFragment extends Fragment {
   public void onActivityCreated(Bundle savedInstanceState) {
     super.onActivityCreated(savedInstanceState);
 
-
+    initDate();
+    initBanner();
   }
   private void initDate() {
     images.add("http://img4.hao123.com/data/desktop/9b971921cf99deb8e1504440963ed027_1366_768");
