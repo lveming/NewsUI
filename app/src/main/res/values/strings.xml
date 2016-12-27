@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">NewsDemo</string>
+    <string name="open_drawer">打开菜单</string>
+    <string name="close_drawer">关闭菜单</string>
+</resources>
